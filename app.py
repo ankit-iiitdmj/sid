@@ -111,4 +111,4 @@ if uploaded_file is not None:
     
     # Display download links for PDFs
     st.download_button(label='Download Names PDF', data=names_pdf, file_name='names.pdf', mime='application/pdf')
-    st.download_button(label='Download Numbers PDF', data=numbers_pdf, file_name='numbers_full_stretch.pdf', mime='application/pdf')
+    st.download_button(label='Download Numbers PDF', data=numbers_pdf, file_name='numbers.pdf', mime='application/pdf')
